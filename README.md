@@ -179,6 +179,6 @@ make test, make build, make check и make update-rates.
 Показаны регистрация, вход, ручное обновление курсов, покупки и продажа,
 просмотр портфеля, get-rate, show-rates и обработка ошибок.
 
-[![Запись работы ValutaTrade Hub](demo.svg)](https://asciinema.org/a/Ap6nsxl7km9NWjFB)
+[![Запись работы ValutaTrade Hub](https://raw.githubusercontent.com/MarchiYT/final-project_Kistin_M26-555/2f5c338238a626aca46194f6a07af8bcced9425f/demo.svg)](https://asciinema.org/a/Ap6nsxl7km9NWjFB)
 
 Файл записи: [demo.cast](demo.cast). Локальный просмотр: asciinema play demo.cast.
