@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="689" height="700" viewBox="0 0 689 700">
+<title>ValutaTrade Hub</title>
+<desc>Кадр из записи работы валютного кошелька. Нажмите для просмотра.</desc>
+<rect width="689" height="700" rx="6" fill="#121417"/>
+<g fill="#dde1e6" font-family="Consolas, Courier New, monospace" font-size="15" xml:space="preserve">
+<text x="16" y="26">&gt; show-portfolio --base EUR</text>
+<text x="16" y="45">Портфель пользователя &#x27;alice&#x27; (база: EUR):</text>
+<text x="16" y="64">+--------+-------------+-----------------+</text>
+<text x="16" y="83">| Валюта |    Баланс   | Стоимость в EUR |</text>
+<text x="16" y="102">+--------+-------------+-----------------+</text>
+<text x="16" y="121">|  BTC   |  0.00100000 |      69.69      |</text>
+<text x="16" y="140">|  EUR   | 75.00000000 |      75.00      |</text>
+<text x="16" y="159">+--------+-------------+-----------------+</text>
+<text x="16" y="178">ИТОГО: 144.69 EUR</text>
+<text x="16" y="197">&gt; get-rate --from BTC --to USD</text>
+<text x="16" y="216">Курс BTC→USD: 77769.00000000</text>
+<text x="16" y="235">Обновлено: 2026-11-02T14:54:39.683677Z; источник: CoinGecko</text>
+<text x="16" y="254">Обратный курс USD→BTC: 0.00001286</text>
+<text x="16" y="273">&gt; get-rate --from EUR --to GBP</text>
+<text x="16" y="292">Курс EUR→GBP: 0.83353254</text>
+<text x="16" y="311">Обновлено: 2026-11-02T14:54:40.004543Z; источник: ExchangeRate-API</text>
+<text x="16" y="330">Обратный курс GBP→EUR: 1.19971322</text>
+<text x="16" y="349">&gt; sell --currency EUR --amount 1000</text>
+<text x="16" y="368">Недостаточно средств: доступно 75 EUR, требуется 1000 EUR</text>
+<text x="16" y="387">&gt; get-rate --from ABC --to USD</text>
+<text x="16" y="406">Неизвестная валюта &#x27;ABC&#x27;</text>
+<text x="16" y="425">Поддерживаются: USD, EUR, GBP, RUB, BTC, ETH, SOL. Справка: help get-rate</text>
+<text x="16" y="444">&gt; show-portfolio</text>
+<text x="16" y="463">Портфель пользователя &#x27;alice&#x27; (база: USD):</text>
+<text x="16" y="482">+--------+-------------+-----------------+</text>
+<text x="16" y="501">| Валюта |    Баланс   | Стоимость в USD |</text>
+<text x="16" y="520">+--------+-------------+-----------------+</text>
+<text x="16" y="539">|  BTC   |  0.00100000 |      77.77      |</text>
+<text x="16" y="558">|  EUR   | 75.00000000 |      83.70      |</text>
+<text x="16" y="577">+--------+-------------+-----------------+</text>
+<text x="16" y="596">ИТОГО: 161.47 USD</text>
+<text x="16" y="615"></text>
+</g>
+<line x1="16" y1="641" x2="673" y2="641" stroke="#3a4047"/>
+<path d="M 22 659 L 22 679 L 39 669 Z" fill="#dde1e6"/>
+<text x="52" y="675" fill="#dde1e6" font-family="Arial, sans-serif" font-size="16">Смотреть запись — 2:05</text>
+</svg>
